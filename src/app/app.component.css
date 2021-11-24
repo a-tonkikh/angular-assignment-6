@@ -1,0 +1,35 @@
+.form {
+  margin: 10px auto;
+  max-width: 980px;
+  width: 100%;
+}
+.form_item {
+  margin: 0 0 15px;
+}
+.form_label {
+  display: block;
+  margin: 0 0 5px;
+  width: 100%;
+}
+.form_input {
+  display: block;
+  padding: 5px;
+  width: 100%;
+}
+.form_select {
+  padding: 5px;
+}
+.form_message {
+  border: 1px solid gray;
+  border-radius: 14px;
+  margin: 0 0 20px;
+  padding: 20px;
+  width: 100%;
+}
+.form_message-error {
+  background-color: pink;
+  border-color: red;
+}
+.form_input.ng-invalid.ng-touched, .form_select.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
